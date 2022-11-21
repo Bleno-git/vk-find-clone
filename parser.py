@@ -10,6 +10,10 @@ from config import *
 
 from deepface import DeepFace
 
+try:
+	os.mkdir('faces')
+except:
+	pass
 
 def one_query(*args, **kwargs):
 	sql = SQL(mysql_host, mysql_login, mysql_pwd, mysql_db)
