@@ -1,0 +1,5 @@
+pymysql
+sklearn
+Pillow
+numpy
+deepface
